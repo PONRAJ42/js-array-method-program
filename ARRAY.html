@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js</title>
+</head>
+<body>
+<script>
+
+// reversing the numbers
+let numbers = [1, 2, 3, 4, 5];
+let a = numbers.reverse();
+console.log(a);
+
+//filter 
+const a=[1,2,3,4,5]
+	const b=a.filter(ca);
+	function ca(a){
+	return a>=2;
+	}
+	console.log(b);
+	
+// find to check even number
+	let numbers = [1, 3, 4, 9, 8];
+function ul(ok) {
+  return ok % 2 == 0;
+}
+let am = numbers.find(ul);
+console.log(am);
+
+// findIndex that returns of first odd number
+function isOdd(element) {
+  return element % 2 !== 0;
+}
+let numbers = [2, 8, 1, 3, 4];
+let firstOdd = numbers.findIndex(isOdd);
+console.log(firstOdd);
+
+// get the index of 
+let languages = ["Java", "JavaScript", "Python", "JavaScript"];
+
+let index = languages.indexOf("JavaScript");
+console.log(index);
+
+let numbers = [2, 4, 6, 8, 10];
+
+// map to return the square of a number
+function square(number) {
+  return number * number;
+}
+let square_numbers x= numbers.map(square);
+console.log(square_numbers);
+//pop
+let number = [1,2,3,4,5,6];
+let removed = number.pop();
+
+console.log(number);         
+console.log(removed);   
+//push
+let a = [1,2,3,4,5];
+city.push(6);
+console.log(a);
+//reduce
+let summation = numbers.reduce(
+  (accumulator, currentValue) => accumulator + currentValue
+);
+console.log(summation); 
+//last index of
+let priceList = [10, 8, 2, 31, 10, 31, 65];
+let lastIndex = priceList.lastIndexOf(31);
+console.log(lastIndex); 
+
+//shift 
+let languages = ["English", "Java", "Python", "JavaScript"];
+let first = languages.shift();
+console.log(first);
+console.log(languages);
+//slice
+let numbers = [2, 3, 5, 7, 11, 13, 17];
+let newArray = numbers.slice(3, 6);
+console.log(newArray);
+//splice
+let prime_numbers = [2, 3, 5, 7, 9, 11];
+let removedElement = prime_numbers.splice(4,13);
+console.log(removedElement);
+console.log(prime_numbers);
+//toLocaleString()
+let array1 = ["Nepal", 1];
+let stringFromArray = array1.toLocaleString();
+console.log(stringFromArray);
+// Nepal,1
+//unshift
+let languages = ["Java", "Python", "C"];
+languages.unshift("JavaScript");
+console.log(languages);
+
+// Output: [ 'JavaScript', 'Java', 'Python', 'C' ]
+</body>
+</html>
